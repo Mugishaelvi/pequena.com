@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messagerie Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Envoyer un message</h1>
+        <form id="messageForm">
+            <label for="phone">Numéro de téléphone :</label>
+            <input type="tel" id="phone" name="phone" placeholder="Ex: +237612345678" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message ici..." required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
